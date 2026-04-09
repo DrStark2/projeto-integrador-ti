@@ -12,3 +12,9 @@ O script coleta metadados essenciais de hardware (CPU, RAM, Disco) e exporta par
 
 ## 📊 Como o projeto funciona?
 O script identifica as especificações da máquina atual e gera um arquivo chamado `inventario_hardware.csv` pronto para análise.
+---
+## 🛠️ Instalação e Execução
+Para reproduzir este projeto e gerar seus próprios dados de inventário, instale as bibliotecas necessárias utilizando o comando abaixo:
+
+```bash
+pip install pandas psutil
